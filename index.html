@@ -6,16 +6,27 @@
     <title>Test Page: Don't Panic</title>
     <style>
       /* GLOBAL STYLES */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 7vw;
+        margin-top: 0;
+      }
       a {
         color: #6900f1;
       }
       h2 {
         font-size: 30px;
       }
-      html {
-        font-size: 18px;
-      }
 
+      /* HERO STYLES */
+      .full-hero {
+        background: #c7dbfc;
+        height: 50vh;
+      }
       /* SOCIAL STYLES */
       .social-link {
         background: rgba(167, 167, 167, 0.2);
@@ -45,18 +56,21 @@
     </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
-    <ul>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-    </ul>
+    <div class="full-hero hero-home">
+      <h1>I'm an h1</h1>
+      <ul>
+        <li>
+          <a href="https://example.com/" class="social-link">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/" class="social-link">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/" class="social-link">Link</a>
+        </li>
+      </ul>
+    </div>
+
     <h2>I'm an h2</h2>
     <div class="bio-wrapper">
       <div class="bio-box">
