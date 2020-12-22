@@ -106,6 +106,10 @@ h3 + p {
   display: inline-block;
   margin: 2em 1em 0;
 }
+.footer-social-list {
+  margin: 1.7em 0;
+  position: relative;
+}
 
 /* HERO STYLES */
 .full-hero {
