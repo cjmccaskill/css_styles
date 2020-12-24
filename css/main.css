@@ -137,7 +137,7 @@ h3 + p {
   width: 0;
 }
 .hero-home {
-  background-image: url(/images/shark.jpg);
+  background-image: url(/styling_website/images/shark.jpg);
   background-position: center top;
 }
 .hero-content {
