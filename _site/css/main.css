@@ -18,6 +18,15 @@ html {
   box-shadow: 0 0 0 30px #000 inset;
   padding: 0 30px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-weight: 100;
+}
 h1 {
   font-size: 7vw;
   margin-top: 0;
@@ -43,15 +52,6 @@ h2 ~ p {
 }
 h3 + p {
   padding-bottom: 25px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", Helvetica, sans-serif;
-  font-weight: 100;
 }
 
 /* HEADER STYLES */
